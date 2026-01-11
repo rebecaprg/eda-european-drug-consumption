@@ -122,3 +122,21 @@ EDA_Ansioliticos_España/
     └── utils/
         └── requirements.txt
 
+
+
+## **4. ESTRUCTURA DEL REPOSITORIO**
+
+```bash
+EDA_Ansioliticos_España/
+│
+├── README.md              # Documentación del proyecto
+├── main.ipynb             # Notebook final con el EDA
+├── Memoria.pdf            # Informe técnico completo
+├── Presentacion.pdf       # Presentación del proyecto
+└── src/
+    ├── data/              # Datos utilizados (CSV,muestras)
+    ├── img/               # Gráficos e imágenes exportadas
+    ├── notebooks/         # Notebooks de desarrollo
+    └── utils/
+        └── requirements.txt
+
