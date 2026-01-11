@@ -67,6 +67,11 @@ Los datos proceden de fuentes oficiales europeas y reflejan patrones reales de c
 
 ---
 
+Instalar dependencias:
+
+pip install -r src/utils/requirements.txt
+---
+
 ## 📁 Estructura del repositorio
 
 european-drug-consumption-analysis/
