@@ -69,7 +69,6 @@ Los datos proceden de fuentes oficiales europeas y reflejan patrones reales de c
 
 ## 📁 Estructura del repositorio
 
-```text
 european-drug-consumption-analysis/
 │
 ├── README.md
@@ -90,14 +89,17 @@ european-drug-consumption-analysis/
 git clone https://github.com/rebecaprg/european-drug-consumption-analysis.git
 Acceder al directorio:
 
-bash
+
 Copiar código
+bash
 cd european-drug-consumption-analysis
 Instalar dependencias:
 
-bash
+
 Copiar código
+bash
 pip install -r src/utils/requirements.txt
+
 Ejecutar el notebook principal:
 
 bash
