@@ -69,6 +69,7 @@ Los datos proceden de fuentes oficiales europeas y reflejan patrones reales de c
 
 ## 📁 Estructura del repositorio
 
+```bash
 EDA_Ansioliticos_España/
 │
 ├── README.md              # Documentación del proyecto
@@ -81,28 +82,25 @@ EDA_Ansioliticos_España/
     ├── notebooks/         # Notebooks de desarrollo
     └── utils/
         └── requirements.txt
+```
 
 ## ▶️ Cómo ejecutar el proyecto
 
-1. Clonar el repositorio:
+Clonar el repositorio:
 ```bash
-git clone https://github.com/rebecaprg/european-drug-consumption-analysis.git
-Acceder al directorio:
-
-
-Copiar código
-bash
-cd european-drug-consumption-analysis
+git clone https://github.com/luciajp-ds/EDA_ansioliticos_esp.git
+```
+Acceder al directorio del proyecto:
+```bash
+cd eda_european_drug
+```
 Instalar dependencias:
-
-
-Copiar código
-bash
-pip install -r src/utils/requirements.txt
-
+```bash
+pip install -r requirements.txt
+```
 Ejecutar el notebook principal:
-
-bash
-Copiar código
+```bash
 jupyter notebook main.ipynb
+```
+
 
