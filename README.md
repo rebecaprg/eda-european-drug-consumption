@@ -1,55 +1,109 @@
+# European Drug Consumption Analysis
 
-## **1. DESCRIPCIÓN BREVE**
+Análisis exploratorio y multivariante del consumo de estupefacientes en Europa utilizando datos oficiales.  
+El proyecto estudia cómo varía la prevalencia de consumo según el **sexo**, la **edad**, el **país** y el **tipo de sustancia**, con el objetivo de identificar patrones y desigualdades relevantes para la salud pública.
 
-Este proyecto realiza un Análisis Exploratorio de Datos (EDA) sobre el consumo de estupefacientes en países europeos, con el objetivo de identificar patrones de prevalencia según género, edad y país, así como diferencias entre tipos de sustancias. El estudio se apoya en datos oficiales y busca aportar una visión clara que sirva como base para la reflexión en el ámbito de la salud pública y la prevención.
+---
 
+## 🎯 Objetivo
 
-## **2. HIPÓTESIS PLANTEADAS**
+Analizar los patrones de consumo de sustancias legales e ilegales en países europeos y evaluar cómo influyen:
+- El género  
+- El grupo de edad  
+- El país  
+- El tipo de sustancia  
 
-El análisis se estructura en torno a las siguientes hipótesis principales:
+para comprender mejor las diferencias sociodemográficas y geográficas.
 
-H1. Los hombres consumen más estupefacientes que las mujeres en todos los grupos de edad y en todos los países.
+---
 
-H2. Existen diferencias significativas en la prevalencia del consumo de estupefacientes entre los países europeos.
+## 🧪 Hipótesis
 
-Estas hipótesis permiten analizar la relación entre consumo, género, edad y contexto geográfico, identificando posibles desigualdades y patrones comunes.
+- **H1**: Los hombres presentan una mayor prevalencia de consumo que las mujeres en todos los grupos de edad.  
+- **H2**: Existen diferencias significativas en la prevalencia del consumo entre países europeos.
 
+---
 
-## **3. TECNOLOGÍAS UTILIZADAS**
+## 📊 Dataset
+
+El conjunto de datos incluye información sobre:
+- País
+- Sexo
+- Grupo de edad
+- Tipo de sustancia (alcohol, tabaco, cannabis, cocaína, éxtasis, anfetaminas, LSD)
+- Prevalencia de consumo
+
+Los datos proceden de fuentes oficiales europeas y reflejan patrones reales de consumo.
+
+---
+
+## 🛠️ Tecnologías utilizadas
 
 **Lenguaje y entorno**
+- Python 3
+- Jupyter Notebook
+- Visual Studio Code
 
-Python 3.10+
-
-Jupyter Notebook
-
-Visual Studio Code
-
-**Librerías de análisis**
-
-Pandas
-
-NumPy
-
-**Visualización**
-
-Matplotlib
-
-Seaborn
-
-Plotly
+**Análisis y visualización**
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Plotly
 
 **Control de versiones**
+- Git
+- GitHub
 
-Git
+---
 
-GitHub
+## 📈 Principales resultados
 
-**Gestión de datos**
+Algunos de los hallazgos más relevantes del análisis:
 
-CSV
+- Los hombres presentan una mayor prevalencia de consumo que las mujeres para todas las sustancias y en todos los grupos de edad.
+- El alcohol y el tabaco son las sustancias más consumidas en todos los países.
+- El cannabis es la droga ilegal con mayor prevalencia, especialmente entre jóvenes adultos (15–34 años).
+- Existen grandes diferencias entre países europeos en los patrones de consumo, tanto para sustancias legales como ilegales.
+- El consumo está influido por una combinación de factores individuales (sexo y edad) y contextuales (país y tipo de sustancia).
 
-OpenPyXL
+---
+
+## 📁 Estructura del repositorio
+european-drug-consumption-analysis/
+│
+├── README.md # Documentación del proyecto
+├── main.ipynb # Notebook final con el EDA
+├── Memoria.pdf # Informe técnico completo
+├── Presentacion.pdf # Presentación del proyecto
+└── src/
+├── data/ # Datos utilizados (CSV)
+├── img/ # Gráficos e imágenes exportadas
+├── notebooks/ # Notebooks de desarrollo
+└── utils/
+└── requirements.txt
+
+## ▶️ Cómo ejecutar el proyecto
+
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/rebecaprg/european-drug-consumption-analysis.git
+Acceder al directorio:
+
+bash
+Copiar código
+cd european-drug-consumption-analysis
+Instalar dependencias:
+
+bash
+Copiar código
+pip install -r src/utils/requirements.txt
+Ejecutar el notebook principal:
+
+bash
+Copiar código
+jupyter notebook main.ipynb
+
 
 
 ## **4. ESTRUCTURA DEL REPOSITORIO**
@@ -67,42 +121,4 @@ EDA_Ansioliticos_España/
     ├── notebooks/         # Notebooks de desarrollo
     └── utils/
         └── requirements.txt
-```
-
-## **5. INSTRUCCIONES DE REPRODUCCIÓN**
-
-Clonar el repositorio:
-```bash
-git clone https://github.com/luciajp-ds/EDA_ansioliticos_esp.git
-```
-Acceder al directorio del proyecto:
-```bash
-cd eda_european_drug
-```
-Instalar dependencias:
-```bash
-pip install -r requirements.txt
-```
-Ejecutar el notebook principal:
-```bash
-jupyter notebook main.ipynb
-```
-
-
-## **6. PRINCIPALES CONCLUSIONES**
-
-De forma preliminar, el EDA permite observar:
-
-El consumo de estupefacientes en Europa presenta una alta variabilidad, tanto entre países como entre grupos sociodemográficos, lo que refleja la existencia de patrones de consumo heterogéneos.
-
-De forma consistente, los hombres muestran una mayor prevalencia de consumo que las mujeres, independientemente del grupo de edad o del tipo de sustancia analizada, lo que respalda la hipótesis H1.
-
-Los jóvenes adultos (15-34 años) presentan mayores niveles de consumo de sustancias ilegales, especialmente cannabis, en comparación con el grupo de adultos de 15 a 64 años.
-
-El alcohol y el tabaco son las sustancias con mayor prevalencia en todos los países analizados, aunque su intensidad varía notablemente entre contextos nacionales.
-
-Existen diferencias claras entre países europeos en los patrones de consumo, tanto para sustancias legales como ilegales, lo que confirma la hipótesis H2 y pone de manifiesto la influencia del contexto geográfico y cultural.
-
-El análisis multivariante evidencia que los patrones de consumo están condicionados por una combinación de factores individuales (sexo y edad) y contextuales (país y tipo de sustancia), reforzando la necesidad de enfoques diferenciados en el diseño de políticas de prevención.
-
 
