@@ -1,7 +1,7 @@
 # European Drug Consumption Analysis
 
 Análisis exploratorio y multivariante del consumo de estupefacientes en Europa utilizando datos oficiales.  
-El proyecto estudia cómo varía la prevalencia de consumo según el **sexo**, la **edad**, el **país** y el **tipo de sustancia**, con el objetivo de identificar patrones y desigualdades relevantes para la salud pública.
+El proyecto estudia cómo varía la prevalencia de consumo según el sexo, la edad, el país y el tipo de sustancia, con el objetivo de identificar patrones y desigualdades relevantes para la salud pública.
 
 ---
 
@@ -27,11 +27,11 @@ para comprender mejor las diferencias sociodemográficas y geográficas.
 ## 📊 Dataset
 
 El conjunto de datos incluye información sobre:
-- País
-- Sexo
-- Grupo de edad
-- Tipo de sustancia (alcohol, tabaco, cannabis, cocaína, éxtasis, anfetaminas, LSD)
-- Prevalencia de consumo
+- País  
+- Sexo  
+- Grupo de edad  
+- Tipo de sustancia (alcohol, tabaco, cannabis, cocaína, éxtasis, anfetaminas, LSD)  
+- Prevalencia de consumo  
 
 Los datos proceden de fuentes oficiales europeas y reflejan patrones reales de consumo.
 
@@ -40,48 +40,48 @@ Los datos proceden de fuentes oficiales europeas y reflejan patrones reales de c
 ## 🛠️ Tecnologías utilizadas
 
 **Lenguaje y entorno**
-- Python 3
-- Jupyter Notebook
-- Visual Studio Code
+- Python 3  
+- Jupyter Notebook  
+- Visual Studio Code  
 
 **Análisis y visualización**
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Plotly
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Plotly  
 
 **Control de versiones**
-- Git
-- GitHub
+- Git  
+- GitHub  
 
 ---
 
 ## 📈 Principales resultados
 
-Algunos de los hallazgos más relevantes del análisis:
-
-- Los hombres presentan una mayor prevalencia de consumo que las mujeres para todas las sustancias y en todos los grupos de edad.
-- El alcohol y el tabaco son las sustancias más consumidas en todos los países.
-- El cannabis es la droga ilegal con mayor prevalencia, especialmente entre jóvenes adultos (15–34 años).
-- Existen grandes diferencias entre países europeos en los patrones de consumo, tanto para sustancias legales como ilegales.
-- El consumo está influido por una combinación de factores individuales (sexo y edad) y contextuales (país y tipo de sustancia).
+- Los hombres presentan una mayor prevalencia de consumo que las mujeres para todas las sustancias y en todos los grupos de edad.  
+- El alcohol y el tabaco son las sustancias más consumidas en todos los países.  
+- El cannabis es la droga ilegal con mayor prevalencia, especialmente entre jóvenes adultos (15–34 años).  
+- Existen grandes diferencias entre países europeos en los patrones de consumo, tanto para sustancias legales como ilegales.  
+- El consumo está influido por una combinación de factores individuales (sexo y edad) y contextuales (país y tipo de sustancia).  
 
 ---
 
 ## 📁 Estructura del repositorio
+
+```text
 european-drug-consumption-analysis/
 │
-├── README.md # Documentación del proyecto
-├── main.ipynb # Notebook final con el EDA
-├── Memoria.pdf # Informe técnico completo
-├── Presentacion.pdf # Presentación del proyecto
+├── README.md
+├── main.ipynb
+├── Memoria.pdf
+├── Presentacion.pdf
 └── src/
-├── data/ # Datos utilizados (CSV)
-├── img/ # Gráficos e imágenes exportadas
-├── notebooks/ # Notebooks de desarrollo
-└── utils/
-└── requirements.txt
+    ├── data/
+    ├── img/
+    ├── notebooks/
+    └── utils/
+        └── requirements.txt
 
 ## ▶️ Cómo ejecutar el proyecto
 
