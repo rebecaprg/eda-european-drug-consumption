@@ -106,9 +106,3 @@ Existen diferencias claras entre países europeos en los patrones de consumo, ta
 El análisis multivariante evidencia que los patrones de consumo están condicionados por una combinación de factores individuales (sexo y edad) y contextuales (país y tipo de sustancia), reforzando la necesidad de enfoques diferenciados en el diseño de políticas de prevención.
 
 
-## **7. AUTORES**
-Rebeca Prior - [GitHub](https://github.com/rebecaprg)
-
-Cristina Pinel - [GitHub](https://github.com/CrisyLudo)
-
-Lucía Jiménez - [GitHub](https://github.com/Luciajp-ds)
