@@ -103,4 +103,8 @@ Ejecutar el notebook principal:
 jupyter notebook main.ipynb
 ```
 
+## 📌 Notas finales
+
+Este proyecto forma parte de mi formación en Data Science y tiene un enfoque exploratorio y descriptivo.
+En trabajos futuros se podrían incorporar técnicas inferenciales y modelos estadísticos para cuantificar de forma precisa el impacto de cada variable.
 
