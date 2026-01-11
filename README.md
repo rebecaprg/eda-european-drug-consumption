@@ -1,6 +1,6 @@
 # European Drug Consumption Analysis
 
-Análisis exploratorio y multivariante del consumo de estupefacientes en Europa utilizando datos oficiales.  
+Análisis exploratorio y multivariante del consumo de drogas en Europa usando datos oficiales. Proyecto completo de Data Science con visualización, hipótesis y conclusiones.
 El proyecto estudia cómo varía la prevalencia de consumo según el sexo, la edad, el país y el tipo de sustancia, con el objetivo de identificar patrones y desigualdades relevantes para la salud pública.
 
 ---
@@ -13,7 +13,7 @@ Analizar los patrones de consumo de sustancias legales e ilegales en países eur
 - El país  
 - El tipo de sustancia  
 
-para comprender mejor las diferencias sociodemográficas y geográficas.
+El objetivo final es **identificar desigualdades y patrones relevantes para la salud pública**.
 
 ---
 
