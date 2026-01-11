@@ -67,23 +67,18 @@ Los datos proceden de fuentes oficiales europeas y reflejan patrones reales de c
 
 ---
 
-Instalar dependencias:
-
-pip install -r src/utils/requirements.txt
----
-
 ## 📁 Estructura del repositorio
 
-european-drug-consumption-analysis/
+EDA_Ansioliticos_España/
 │
-├── README.md
-├── main.ipynb
-├── Memoria.pdf
-├── Presentacion.pdf
+├── README.md              # Documentación del proyecto
+├── main.ipynb             # Notebook final con el EDA
+├── Memoria.pdf            # Informe técnico completo
+├── Presentacion.pdf       # Presentación del proyecto
 └── src/
-    ├── data/
-    ├── img/
-    ├── notebooks/
+    ├── data/              # Datos utilizados (CSV,muestras)
+    ├── img/               # Gráficos e imágenes exportadas
+    ├── notebooks/         # Notebooks de desarrollo
     └── utils/
         └── requirements.txt
 
@@ -110,40 +105,4 @@ Ejecutar el notebook principal:
 bash
 Copiar código
 jupyter notebook main.ipynb
-
-
-
-## **4. ESTRUCTURA DEL REPOSITORIO**
-
-```bash
-EDA_Ansioliticos_España/
-│
-├── README.md              # Documentación del proyecto
-├── main.ipynb             # Notebook final con el EDA
-├── Memoria.pdf            # Informe técnico completo
-├── Presentacion.pdf       # Presentación del proyecto
-└── src/
-    ├── data/              # Datos utilizados (CSV,muestras)
-    ├── img/               # Gráficos e imágenes exportadas
-    ├── notebooks/         # Notebooks de desarrollo
-    └── utils/
-        └── requirements.txt
-
-
-
-## **4. ESTRUCTURA DEL REPOSITORIO**
-
-```bash
-EDA_Ansioliticos_España/
-│
-├── README.md              # Documentación del proyecto
-├── main.ipynb             # Notebook final con el EDA
-├── Memoria.pdf            # Informe técnico completo
-├── Presentacion.pdf       # Presentación del proyecto
-└── src/
-    ├── data/              # Datos utilizados (CSV,muestras)
-    ├── img/               # Gráficos e imágenes exportadas
-    ├── notebooks/         # Notebooks de desarrollo
-    └── utils/
-        └── requirements.txt
 
